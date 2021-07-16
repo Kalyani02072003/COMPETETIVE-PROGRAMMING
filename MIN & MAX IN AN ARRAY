@@ -1,0 +1,11 @@
+def getMinMax( a, n):
+    mi=a[0]
+    ma=0
+    for i in a:
+        if i>ma:
+            ma=i
+    for k in a:
+        if k<mi:
+            mi=k
+            
+    return ma,mi
