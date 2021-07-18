@@ -1,0 +1,8 @@
+num=""
+for i in arr:
+    x=i%10
+    num=num+str(x)
+if int(num)%10==0:
+    print("1")
+else:
+    print("-1")
